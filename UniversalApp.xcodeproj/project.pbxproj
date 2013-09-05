@@ -16,8 +16,20 @@
 		8E6F3C5017D8F14000589E65 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C4F17D8F14000589E65 /* Default.png */; };
 		8E6F3C5217D8F14000589E65 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C5117D8F14000589E65 /* Default@2x.png */; };
 		8E6F3C5417D8F14000589E65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C5317D8F14000589E65 /* Default-568h@2x.png */; };
-		8E6F3C5717D8F14000589E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C5617D8F14000589E65 /* ViewController.m */; };
-		8E6F3C5A17D8F14000589E65 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C5817D8F14000589E65 /* ViewController.xib */; };
+		8E6F3C6317D8F3E300589E65 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C6117D8F3E300589E65 /* MenuViewController.m */; };
+		8E6F3C6417D8F3E300589E65 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C6217D8F3E300589E65 /* MenuViewController.xib */; };
+		8E6F3C6817D8F3FF00589E65 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C6617D8F3FF00589E65 /* CameraViewController.m */; };
+		8E6F3C6917D8F3FF00589E65 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C6717D8F3FF00589E65 /* CameraViewController.xib */; };
+		8E6F3C6D17D8F41600589E65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C6B17D8F41600589E65 /* MapViewController.m */; };
+		8E6F3C6E17D8F41600589E65 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C6C17D8F41600589E65 /* MapViewController.xib */; };
+		8E6F3C7217D8F43500589E65 /* PedometrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7017D8F43400589E65 /* PedometrViewController.m */; };
+		8E6F3C7317D8F43500589E65 /* PedometrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7117D8F43500589E65 /* PedometrViewController.xib */; };
+		8E6F3C7717D8F45A00589E65 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7517D8F45900589E65 /* BrowserViewController.m */; };
+		8E6F3C7817D8F45A00589E65 /* BrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7617D8F45A00589E65 /* BrowserViewController.xib */; };
+		8E6F3C7C17D8F47C00589E65 /* AudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7A17D8F47C00589E65 /* AudioPlayerViewController.m */; };
+		8E6F3C7D17D8F47C00589E65 /* AudioPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7B17D8F47C00589E65 /* AudioPlayerViewController.xib */; };
+		8E6F3C8117D8F4A600589E65 /* MyContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7F17D8F4A500589E65 /* MyContactsViewController.m */; };
+		8E6F3C8217D8F4A600589E65 /* MyContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C8017D8F4A500589E65 /* MyContactsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +46,27 @@
 		8E6F3C4F17D8F14000589E65 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8E6F3C5117D8F14000589E65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8E6F3C5317D8F14000589E65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8E6F3C5517D8F14000589E65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E6F3C5617D8F14000589E65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8E6F3C5917D8F14000589E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8E6F3C6017D8F3E300589E65 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		8E6F3C6117D8F3E300589E65 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		8E6F3C6217D8F3E300589E65 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		8E6F3C6517D8F3FF00589E65 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		8E6F3C6617D8F3FF00589E65 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		8E6F3C6717D8F3FF00589E65 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		8E6F3C6A17D8F41600589E65 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8E6F3C6B17D8F41600589E65 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8E6F3C6C17D8F41600589E65 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		8E6F3C6F17D8F43400589E65 /* PedometrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometrViewController.h; sourceTree = "<group>"; };
+		8E6F3C7017D8F43400589E65 /* PedometrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometrViewController.m; sourceTree = "<group>"; };
+		8E6F3C7117D8F43500589E65 /* PedometrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PedometrViewController.xib; sourceTree = "<group>"; };
+		8E6F3C7417D8F45900589E65 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		8E6F3C7517D8F45900589E65 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		8E6F3C7617D8F45A00589E65 /* BrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserViewController.xib; sourceTree = "<group>"; };
+		8E6F3C7917D8F47B00589E65 /* AudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerViewController.h; sourceTree = "<group>"; };
+		8E6F3C7A17D8F47C00589E65 /* AudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerViewController.m; sourceTree = "<group>"; };
+		8E6F3C7B17D8F47C00589E65 /* AudioPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerViewController.xib; sourceTree = "<group>"; };
+		8E6F3C7E17D8F4A500589E65 /* MyContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactsViewController.h; sourceTree = "<group>"; };
+		8E6F3C7F17D8F4A500589E65 /* MyContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyContactsViewController.m; sourceTree = "<group>"; };
+		8E6F3C8017D8F4A500589E65 /* MyContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyContactsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +115,7 @@
 			children = (
 				8E6F3C4C17D8F14000589E65 /* AppDelegate.h */,
 				8E6F3C4D17D8F14000589E65 /* AppDelegate.m */,
-				8E6F3C5517D8F14000589E65 /* ViewController.h */,
-				8E6F3C5617D8F14000589E65 /* ViewController.m */,
-				8E6F3C5817D8F14000589E65 /* ViewController.xib */,
+				8E6F3C8317D8F4B000589E65 /* Controllers */,
 				8E6F3C4417D8F14000589E65 /* Supporting Files */,
 			);
 			path = UniversalApp;
@@ -105,6 +133,90 @@
 				8E6F3C5317D8F14000589E65 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E6F3C8317D8F4B000589E65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C8417D8F4C400589E65 /* Menu */,
+				8E6F3C8517D8F4D900589E65 /* Camera */,
+				8E6F3C8617D8F4EA00589E65 /* Pedometr */,
+				8E6F3C8717D8F4F800589E65 /* AudioPlayer */,
+				8E6F3C8817D8F51200589E65 /* MyContacts */,
+				8E6F3C8917D8F52800589E65 /* Browser */,
+				8E6F3C8A17D8F53800589E65 /* Map */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E6F3C8417D8F4C400589E65 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C6017D8F3E300589E65 /* MenuViewController.h */,
+				8E6F3C6117D8F3E300589E65 /* MenuViewController.m */,
+				8E6F3C6217D8F3E300589E65 /* MenuViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		8E6F3C8517D8F4D900589E65 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C6517D8F3FF00589E65 /* CameraViewController.h */,
+				8E6F3C6617D8F3FF00589E65 /* CameraViewController.m */,
+				8E6F3C6717D8F3FF00589E65 /* CameraViewController.xib */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		8E6F3C8617D8F4EA00589E65 /* Pedometr */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C6F17D8F43400589E65 /* PedometrViewController.h */,
+				8E6F3C7017D8F43400589E65 /* PedometrViewController.m */,
+				8E6F3C7117D8F43500589E65 /* PedometrViewController.xib */,
+			);
+			name = Pedometr;
+			sourceTree = "<group>";
+		};
+		8E6F3C8717D8F4F800589E65 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C7917D8F47B00589E65 /* AudioPlayerViewController.h */,
+				8E6F3C7A17D8F47C00589E65 /* AudioPlayerViewController.m */,
+				8E6F3C7B17D8F47C00589E65 /* AudioPlayerViewController.xib */,
+			);
+			name = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		8E6F3C8817D8F51200589E65 /* MyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C7E17D8F4A500589E65 /* MyContactsViewController.h */,
+				8E6F3C7F17D8F4A500589E65 /* MyContactsViewController.m */,
+				8E6F3C8017D8F4A500589E65 /* MyContactsViewController.xib */,
+			);
+			name = MyContacts;
+			sourceTree = "<group>";
+		};
+		8E6F3C8917D8F52800589E65 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C7417D8F45900589E65 /* BrowserViewController.h */,
+				8E6F3C7517D8F45900589E65 /* BrowserViewController.m */,
+				8E6F3C7617D8F45A00589E65 /* BrowserViewController.xib */,
+			);
+			name = Browser;
+			sourceTree = "<group>";
+		};
+		8E6F3C8A17D8F53800589E65 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3C6A17D8F41600589E65 /* MapViewController.h */,
+				8E6F3C6B17D8F41600589E65 /* MapViewController.m */,
+				8E6F3C6C17D8F41600589E65 /* MapViewController.xib */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +274,13 @@
 				8E6F3C5017D8F14000589E65 /* Default.png in Resources */,
 				8E6F3C5217D8F14000589E65 /* Default@2x.png in Resources */,
 				8E6F3C5417D8F14000589E65 /* Default-568h@2x.png in Resources */,
-				8E6F3C5A17D8F14000589E65 /* ViewController.xib in Resources */,
+				8E6F3C6417D8F3E300589E65 /* MenuViewController.xib in Resources */,
+				8E6F3C6917D8F3FF00589E65 /* CameraViewController.xib in Resources */,
+				8E6F3C6E17D8F41600589E65 /* MapViewController.xib in Resources */,
+				8E6F3C7317D8F43500589E65 /* PedometrViewController.xib in Resources */,
+				8E6F3C7817D8F45A00589E65 /* BrowserViewController.xib in Resources */,
+				8E6F3C7D17D8F47C00589E65 /* AudioPlayerViewController.xib in Resources */,
+				8E6F3C8217D8F4A600589E65 /* MyContactsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +293,13 @@
 			files = (
 				8E6F3C4A17D8F14000589E65 /* main.m in Sources */,
 				8E6F3C4E17D8F14000589E65 /* AppDelegate.m in Sources */,
-				8E6F3C5717D8F14000589E65 /* ViewController.m in Sources */,
+				8E6F3C6317D8F3E300589E65 /* MenuViewController.m in Sources */,
+				8E6F3C6817D8F3FF00589E65 /* CameraViewController.m in Sources */,
+				8E6F3C6D17D8F41600589E65 /* MapViewController.m in Sources */,
+				8E6F3C7217D8F43500589E65 /* PedometrViewController.m in Sources */,
+				8E6F3C7717D8F45A00589E65 /* BrowserViewController.m in Sources */,
+				8E6F3C7C17D8F47C00589E65 /* AudioPlayerViewController.m in Sources */,
+				8E6F3C8117D8F4A600589E65 /* MyContactsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +312,6 @@
 				8E6F3C4717D8F14000589E65 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8E6F3C5817D8F14000589E65 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E6F3C5917D8F14000589E65 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
