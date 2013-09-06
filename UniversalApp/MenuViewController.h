@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MenuViewController : UIViewController
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
+
+@interface MenuViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
 
 - (IBAction)cameraButtonTouchUpInside:(id)sender;
 - (IBAction)mapButtonTouchUpInside:(id)sender;

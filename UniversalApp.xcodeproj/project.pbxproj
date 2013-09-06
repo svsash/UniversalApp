@@ -28,8 +28,13 @@
 		8E6F3C7817D8F45A00589E65 /* BrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7617D8F45A00589E65 /* BrowserViewController.xib */; };
 		8E6F3C7C17D8F47C00589E65 /* AudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7A17D8F47C00589E65 /* AudioPlayerViewController.m */; };
 		8E6F3C7D17D8F47C00589E65 /* AudioPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7B17D8F47C00589E65 /* AudioPlayerViewController.xib */; };
-		8E6F3C8117D8F4A600589E65 /* MyContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F3C7F17D8F4A500589E65 /* MyContactsViewController.m */; };
-		8E6F3C8217D8F4A600589E65 /* MyContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3C8017D8F4A500589E65 /* MyContactsViewController.xib */; };
+		8E8E9BDA17DA423B00CB58B1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8E9BD917DA423B00CB58B1 /* AssetsLibrary.framework */; };
+		8E8E9BDC17DA424800CB58B1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8E9BDB17DA424800CB58B1 /* MapKit.framework */; };
+		8E8E9BDE17DA425500CB58B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8E9BDD17DA425500CB58B1 /* AVFoundation.framework */; };
+		8E8E9BE017DA426A00CB58B1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8E9BDF17DA426A00CB58B1 /* AddressBook.framework */; };
+		8E8E9BE217DA427600CB58B1 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8E9BE117DA427600CB58B1 /* AddressBookUI.framework */; };
+		8E8E9BE517DA54AF00CB58B1 /* CameraOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E9BE417DA54AF00CB58B1 /* CameraOverlayView.m */; };
+		8E8E9BE917DA593400CB58B1 /* CameraOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8E9BE817DA593400CB58B1 /* CameraOverlayView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,9 +69,14 @@
 		8E6F3C7917D8F47B00589E65 /* AudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerViewController.h; sourceTree = "<group>"; };
 		8E6F3C7A17D8F47C00589E65 /* AudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerViewController.m; sourceTree = "<group>"; };
 		8E6F3C7B17D8F47C00589E65 /* AudioPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerViewController.xib; sourceTree = "<group>"; };
-		8E6F3C7E17D8F4A500589E65 /* MyContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactsViewController.h; sourceTree = "<group>"; };
-		8E6F3C7F17D8F4A500589E65 /* MyContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyContactsViewController.m; sourceTree = "<group>"; };
-		8E6F3C8017D8F4A500589E65 /* MyContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyContactsViewController.xib; sourceTree = "<group>"; };
+		8E8E9BD917DA423B00CB58B1 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8E8E9BDB17DA424800CB58B1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E8E9BDD17DA425500CB58B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8E8E9BDF17DA426A00CB58B1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8E8E9BE117DA427600CB58B1 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		8E8E9BE317DA54AE00CB58B1 /* CameraOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayView.h; sourceTree = "<group>"; };
+		8E8E9BE417DA54AF00CB58B1 /* CameraOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayView.m; sourceTree = "<group>"; };
+		8E8E9BE817DA593400CB58B1 /* CameraOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraOverlayView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8E9BE217DA427600CB58B1 /* AddressBookUI.framework in Frameworks */,
+				8E8E9BE017DA426A00CB58B1 /* AddressBook.framework in Frameworks */,
+				8E8E9BDE17DA425500CB58B1 /* AVFoundation.framework in Frameworks */,
+				8E8E9BDC17DA424800CB58B1 /* MapKit.framework in Frameworks */,
+				8E8E9BDA17DA423B00CB58B1 /* AssetsLibrary.framework in Frameworks */,
 				8E6F3C3E17D8F13F00589E65 /* UIKit.framework in Frameworks */,
 				8E6F3C4017D8F13F00589E65 /* Foundation.framework in Frameworks */,
 				8E6F3C4217D8F13F00589E65 /* CoreGraphics.framework in Frameworks */,
@@ -103,6 +118,11 @@
 		8E6F3C3C17D8F13F00589E65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E8E9BE117DA427600CB58B1 /* AddressBookUI.framework */,
+				8E8E9BDF17DA426A00CB58B1 /* AddressBook.framework */,
+				8E8E9BDD17DA425500CB58B1 /* AVFoundation.framework */,
+				8E8E9BDB17DA424800CB58B1 /* MapKit.framework */,
+				8E8E9BD917DA423B00CB58B1 /* AssetsLibrary.framework */,
 				8E6F3C3D17D8F13F00589E65 /* UIKit.framework */,
 				8E6F3C3F17D8F13F00589E65 /* Foundation.framework */,
 				8E6F3C4117D8F13F00589E65 /* CoreGraphics.framework */,
@@ -142,7 +162,6 @@
 				8E6F3C8517D8F4D900589E65 /* Camera */,
 				8E6F3C8617D8F4EA00589E65 /* Pedometr */,
 				8E6F3C8717D8F4F800589E65 /* AudioPlayer */,
-				8E6F3C8817D8F51200589E65 /* MyContacts */,
 				8E6F3C8917D8F52800589E65 /* Browser */,
 				8E6F3C8A17D8F53800589E65 /* Map */,
 			);
@@ -165,6 +184,9 @@
 				8E6F3C6517D8F3FF00589E65 /* CameraViewController.h */,
 				8E6F3C6617D8F3FF00589E65 /* CameraViewController.m */,
 				8E6F3C6717D8F3FF00589E65 /* CameraViewController.xib */,
+				8E8E9BE317DA54AE00CB58B1 /* CameraOverlayView.h */,
+				8E8E9BE417DA54AF00CB58B1 /* CameraOverlayView.m */,
+				8E8E9BE817DA593400CB58B1 /* CameraOverlayView.xib */,
 			);
 			name = Camera;
 			sourceTree = "<group>";
@@ -187,16 +209,6 @@
 				8E6F3C7B17D8F47C00589E65 /* AudioPlayerViewController.xib */,
 			);
 			name = AudioPlayer;
-			sourceTree = "<group>";
-		};
-		8E6F3C8817D8F51200589E65 /* MyContacts */ = {
-			isa = PBXGroup;
-			children = (
-				8E6F3C7E17D8F4A500589E65 /* MyContactsViewController.h */,
-				8E6F3C7F17D8F4A500589E65 /* MyContactsViewController.m */,
-				8E6F3C8017D8F4A500589E65 /* MyContactsViewController.xib */,
-			);
-			name = MyContacts;
 			sourceTree = "<group>";
 		};
 		8E6F3C8917D8F52800589E65 /* Browser */ = {
@@ -280,7 +292,7 @@
 				8E6F3C7317D8F43500589E65 /* PedometrViewController.xib in Resources */,
 				8E6F3C7817D8F45A00589E65 /* BrowserViewController.xib in Resources */,
 				8E6F3C7D17D8F47C00589E65 /* AudioPlayerViewController.xib in Resources */,
-				8E6F3C8217D8F4A600589E65 /* MyContactsViewController.xib in Resources */,
+				8E8E9BE917DA593400CB58B1 /* CameraOverlayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +311,7 @@
 				8E6F3C7217D8F43500589E65 /* PedometrViewController.m in Sources */,
 				8E6F3C7717D8F45A00589E65 /* BrowserViewController.m in Sources */,
 				8E6F3C7C17D8F47C00589E65 /* AudioPlayerViewController.m in Sources */,
-				8E6F3C8117D8F4A600589E65 /* MyContactsViewController.m in Sources */,
+				8E8E9BE517DA54AF00CB58B1 /* CameraOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +354,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +378,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -414,6 +426,7 @@
 				8E6F3C5F17D8F14000589E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

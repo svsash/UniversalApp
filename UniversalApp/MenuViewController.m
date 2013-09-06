@@ -11,7 +11,6 @@
 #import "CameraViewController.h"
 #import "PedometrViewController.h"
 #import "AudioPlayerViewController.h"
-#import "MyContactsViewController.h"
 #import "BrowserViewController.h"
 #import "MapViewController.h"
 
@@ -49,6 +48,37 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - address book
+
+- (void) showAddressBook
+{
+    ABPeoplePickerNavigationController *picker = [[ABPeoplePickerNavigationController alloc] init];
+    picker.peoplePickerDelegate = self;
+    [self presentModalViewController:picker animated:YES];
+}
+
+- (void)peoplePickerNavigationControllerDidCancel: (ABPeoplePickerNavigationController *)peoplePicker
+{
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier {
+    return NO;
+}
+
+- (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person
+{
+    NSString *name = (__bridge_transfer NSString *) ABRecordCopyCompositeName(person);
+    
+    NSLog(@"person %@", name);
+    
+    [self dismissModalViewControllerAnimated:YES];
+    
+    return NO;
+}
+
+#pragma mark - Action methods
+
 - (IBAction)cameraButtonTouchUpInside:(id)sender
 {
     CameraViewController *cameraVC = [[CameraViewController alloc] initWithNibName:@"CameraViewController" bundle:nil];
@@ -81,8 +111,7 @@
 
 - (IBAction)myContactsButtonTouchUpInside:(id)sender
 {
-    MyContactsViewController *myContacts = [[MyContactsViewController alloc] initWithNibName:@"MyContactsViewController" bundle:nil];
-    [self.navigationController pushViewController:myContacts animated:YES];
+    [self showAddressBook];
 }
 
 
