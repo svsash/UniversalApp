@@ -8,9 +8,9 @@
 
 #import "CameraViewController.h"
 
-#import "CameraOverlayView.h"
-
-@interface CameraViewController ()
+@interface CameraViewController () {
+    UIImagePickerController *_picker;
+}
 
 @end
 
@@ -53,24 +53,26 @@
 
 - (void) showCamera
 {
-    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    _picker = [[UIImagePickerController alloc] init];
+    _picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     
     CameraOverlayView *overlay = [[CameraOverlayView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
     
+    overlay.delegate = self;
     
     
-    picker.showsCameraControls = NO;
-    picker.navigationBarHidden = YES;
-    picker.toolbarHidden = YES;
-    picker.wantsFullScreenLayout = YES;
-    picker.cameraViewTransform =
-    CGAffineTransformScale(picker.cameraViewTransform,
+    
+    _picker.showsCameraControls = NO;
+    _picker.navigationBarHidden = YES;
+    _picker.toolbarHidden = YES;
+    _picker.wantsFullScreenLayout = YES;
+    _picker.cameraViewTransform =
+    CGAffineTransformScale(_picker.cameraViewTransform,
                            1,
                            1.12412);
-    picker.cameraOverlayView = overlay;
+    _picker.cameraOverlayView = overlay;
     
-    [self presentModalViewController:picker animated:NO];
+    [self presentModalViewController:_picker animated:NO];
     
     
 }
@@ -82,5 +84,38 @@
     
 }
 
+#pragma mark - Action methods
+
+- (void) cameraBack
+{
+    
+}
+
+- (void) cameraFlash
+{
+    
+}
+
+- (void) cameraRotateRetake
+{
+    if(_picker.cameraDevice == UIImagePickerControllerCameraDeviceFront)
+    {
+        _picker.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+    }
+    else {
+        _picker.cameraDevice = UIImagePickerControllerCameraDeviceFront;
+    }
+    _picker.cameraViewTransform = CGAffineTransformScale(_picker.cameraViewTransform, -1,     1);
+}
+
+- (void) cameraSavePicture
+{
+    
+}
+
+- (void) cameraTakePicture
+{
+    
+}
 
 @end

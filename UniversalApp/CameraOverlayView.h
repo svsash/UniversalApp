@@ -8,16 +8,36 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CameraViewController.h"
+@class CameraOverlayView;
 
-@interface CameraOverlayView : UIView <UIImagePickerControllerDelegate> {
+@protocol CameraOverlayViewDelegate <NSObject>
+
+- (void) cameraRotateRetake;
+
+- (void) cameraTakePicture;
+
+- (void) cameraFlash;
+
+- (void) cameraBack;
+
+- (void) cameraSavePicture;
+
+@end
+
+@interface CameraOverlayView : UIView {
     __weak IBOutlet UIView *_view;
 }
 
-@property (nonatomic, weak) id <UIImagePickerControllerDelegate> delegate;
+@property (weak, nonatomic) id <CameraOverlayViewDelegate> delegate;
 
 - (IBAction) takePictureButtonTouchUpInside: (id) sender;
 
 - (IBAction) backButtonTouchUpInside: (id) sender;
+
+- (IBAction) flashButtonTouchUpInside: (id) sender;
+
+- (IBAction) rotateRetakeButtonTouchUpInside: (id) sender;
+
+- (IBAction) saveButtonTouchUpInside: (id) sender;
 
 @end

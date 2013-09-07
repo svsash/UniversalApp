@@ -25,13 +25,38 @@
 
 - (IBAction) takePictureButtonTouchUpInside: (id) sender
 {
-
+    if ([_delegate respondsToSelector:@selector(cameraTakePicture)]) {
+        [_delegate cameraTakePicture];
+    }
 }
 
 - (IBAction) backButtonTouchUpInside: (id) sender
 {
-    
+    if ([_delegate respondsToSelector:@selector(cameraBack)]) {
+        [_delegate cameraBack];
+    }
 }
+
+- (IBAction) rotateRetakeButtonTouchUpInside: (id) sender
+{
+    if ([_delegate respondsToSelector:@selector(cameraRotateRetake)]) {
+        [_delegate cameraRotateRetake];
+    }
+}
+
+- (IBAction) flashButtonTouchUpInside: (id) sender
+{
+    if ([_delegate respondsToSelector:@selector(cameraFlash)]) {
+        [_delegate cameraFlash];
+    }
+}
+
+- (IBAction) saveButtonTouchUpInside: (id) sender{
+    if ([_delegate respondsToSelector:@selector(cameraSavePicture)]) {
+        [_delegate cameraSavePicture];
+    }
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
