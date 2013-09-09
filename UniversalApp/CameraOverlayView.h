@@ -30,6 +30,14 @@
 
 @property (weak, nonatomic) id <CameraOverlayViewDelegate> delegate;
 
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *backButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *rotateRetakeButton;
+@property (nonatomic, strong) IBOutlet UIButton *saveButton;
+@property (nonatomic, strong) IBOutlet UIButton *flashButton;
+@property (nonatomic, strong) IBOutlet UIButton *takePictureButton;
+
+@property (nonatomic, strong) IBOutlet UIImageView *previewImageView;
+
 - (IBAction) takePictureButtonTouchUpInside: (id) sender;
 
 - (IBAction) backButtonTouchUpInside: (id) sender;
@@ -39,5 +47,6 @@
 - (IBAction) rotateRetakeButtonTouchUpInside: (id) sender;
 
 - (IBAction) saveButtonTouchUpInside: (id) sender;
+
 
 @end

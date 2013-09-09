@@ -10,6 +10,17 @@
 
 #import "CameraOverlayView.h"
 
-@interface CameraViewController : UIViewController <UIImagePickerControllerDelegate, CameraOverlayViewDelegate>
+#import <AssetsLibrary/AssetsLibrary.h>
 
+#import "ALAssetsLibrary+CustomPhotoAlbum.h"
+
+enum CameraState {
+    CameraStateCamera = 0,
+    CameraStatePreview = 1
+};
+
+@interface CameraViewController : UIViewController <CameraOverlayViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate>
+
+@property (strong, atomic) ALAssetsLibrary* library;
+    
 @end

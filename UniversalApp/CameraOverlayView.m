@@ -10,6 +10,8 @@
 
 @implementation CameraOverlayView
 
+@synthesize rotateRetakeButton, flashButton, takePictureButton, saveButton;
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

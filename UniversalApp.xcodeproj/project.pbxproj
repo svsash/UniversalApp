@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E076EFE17DE394E00430807 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E076EFD17DE394D00430807 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		8E6F3C3E17D8F13F00589E65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F3C3D17D8F13F00589E65 /* UIKit.framework */; };
 		8E6F3C4017D8F13F00589E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F3C3F17D8F13F00589E65 /* Foundation.framework */; };
 		8E6F3C4217D8F13F00589E65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F3C4117D8F13F00589E65 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E076EFC17DE394D00430807 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		8E076EFD17DE394D00430807 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		8E6F3C3A17D8F13F00589E65 /* UniversalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6F3C3D17D8F13F00589E65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E6F3C3F17D8F13F00589E65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -181,6 +184,8 @@
 		8E6F3C8517D8F4D900589E65 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				8E076EFC17DE394D00430807 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				8E076EFD17DE394D00430807 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
 				8E6F3C6517D8F3FF00589E65 /* CameraViewController.h */,
 				8E6F3C6617D8F3FF00589E65 /* CameraViewController.m */,
 				8E6F3C6717D8F3FF00589E65 /* CameraViewController.xib */,
@@ -312,6 +317,7 @@
 				8E6F3C7717D8F45A00589E65 /* BrowserViewController.m in Sources */,
 				8E6F3C7C17D8F47C00589E65 /* AudioPlayerViewController.m in Sources */,
 				8E8E9BE517DA54AF00CB58B1 /* CameraOverlayView.m in Sources */,
+				8E076EFE17DE394E00430807 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
